@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<HTML>
+<head>
+	<meta charset="utf-8">
+	<title>CV PROFEED INDO TAMA</title>
+
+<style>
+	body{
+		background-color:lightgreen;
+	}
+	img{
+	
+		height:100px; 
+		width:100px; 
+	}
+	hr{
+		border-style:none;
+		border-top-style:dotted; 
+		border-color:grey; 
+		
+	}
+
+
+.myselect {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  max-width: 400px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  border: 1px solid #cbd1d8;
+  font-size: 1rem;
+  line-height: 1.5;
+  background: #fff url(../img/down.svg) no-repeat center right 12px / 18px 18px;
+  transition: all .2s ease-in-out;
+}
+ 
+/*IE*/
+.myselect::-ms-expand {
+  display: none;
+}
+ 
+.myselect:focus {
+  outline: 0;
+  border-color: #7bbaff;
+  box-shadow: 0 0 0 3px rgba(0, 121, 250, .3);
+}
+
+</style>
+
+
+
+
+
+
+
+
+
+<header style="background-color:#EAFGf6">
+<table>
+	<td>
+	
+<img class="gambar" src="Image/Logo Profeed.jpg">
+
+</td>
+<td>
+<h1><center><strong>CV PROFEED INDO TAMA</strong></center></h1>
+</td>
+</table>
+</header>
+	<table cellspacing="10">
+		<th>About Us</th>
+			<td><ul>
+					<li>Head Office</li>
+					<li>Ware House</li>
+					<li>Vision</li>
+					<li>Mision</li>
+				</ul></td>
+			<th>News</th>
+			<td><ul>
+				<li><a href=" Upgraded Solution Against Mycotoxins.html">Upgraded Solustion Against Mycotoxins</a></li>
+				<li><a href="Your First Choice Against Mycoplasma.html">Your First Choice Against Mycoplasma</a></li>
+			</ul></td>
+			<th>Product</th>
+			<td><ul>
+				<li><a href="Image/EGG.jpg">Mr.Egg</a></li>
+				<li><a href="Image/GROWTH.jpg">Mr.Growth</a></li>
+				
+			</ul></td>
+			<th>Contact Us</th>
+			<td><ul>
+				<li>Phone:+628165434074|+62315054467</li>
+				<li>Email:Indotama.profeed@gmail.com</li>
+			</ul></td>
+		</tr>
+</table>
+</header>	
+</head>
+<body>
+	<header>
+	
+<hr>
+<h1>About Us</h1>
+<p>Established in November 2011</p>
+			<h2>Head Office</h2>
+			<p>Raya Ngagel Jaya Indah 3E, Surabaya Komplek Ruko Ngagel Jaya Indah</p>
+			<h2>Ware House</h2>
+			<p>Pergudangan Safe And Lock B2311 Lingkar Timur, Sidoarjo</p>	
+			<h2>Vision</h2>
+			<p>Better Life For Everyone</p>
+			<h2>Mision</h2>
+			<p>To Become a Reliable Partner For Employee, Customers, and Goverment <br>
+			Where Relationship Are Built on Trust, Professionalsm, and Honesty</p>
+<hr>
+
+<h1>News</h1>
+			<ul>
+				<li><a href=" Upgraded Solution Against Mycotoxins.html">Upgraded Solustion Against Mycotoxins</a></li>
+				<li><a href="Your First Choice Against Mycoplasma.html">Your First Choice Against Mycoplasma</a></li>
+			</ul>
+<hr>
+
+<h1>Our Product</h1>
+<select class="myselect">
+	<script type="text/javascript">const select = document.querySelector(".myselect");
+const options = document.querySelectorAll(".myselect option");
+ 
+// 1
+select.addEventListener("change", function() {
+  const url = this.options[this.selectedIndex].dataset.url;
+  if(url) {
+    location.href = url;
+  }
+});
+ 
+// 2
+for(const option of options) {
+  const url = option.dataset.url;
+  if(location.href.includes(url)) {
+    option.setAttribute("selected", "");
+    break;
+  }
+}</script>
+	<option>select  our product</option>
+  	<option data-url="Image/EGG.jpg">Mr.Egg</option>
+  	<option data-url="Image/GROWTH.jpg">Mr.Growth</option>	
+</select>
+
+<hr>	
+<h1>Contact Us</h1>
+	<table  border="1">
+	<tr>Phone</tr>
+	<td>+628165434074</td>
+	<td>+62315054467</td>	
+	</table>
+	<p>Email:Indotama.profeed@gmail.com</p>
+	
+<form >	
+	<label>Your Name:</label>
+<input type="text" name=""><br>
+<input type="checkbox" name="">Male<br>
+<input type="checkbox" name="">Female<br>
+<label>Your Birthday</label>
+<input type="date" name=""><br>
+	<label>Your Email:</label>
+<input type="email" name="" value=""><br>	
+<label>Your Message:</label><br>
+<textarea name="" rows="10" cols="30"></textarea><br>
+<input type="submit" name="">
+</form>
+</header>
+</body>
+</HTML>
+
+
+
+
+
+
+
+
+		
+
